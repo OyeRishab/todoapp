@@ -61,6 +61,11 @@ body {
   cursor: pointer;
 }
 
+input[type="checkbox"]:checked + label {
+  color: #bbc2d8;
+  text-decoration: line-through;
+}
+
 button {
   background-color: transparent;
   padding: 5px;
